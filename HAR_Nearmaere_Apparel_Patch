@@ -1,0 +1,18 @@
+[Apparel Patch for Aya races] Patch operation Verse.PatchOperationSequence(count=1, lastFailedOperation=Verse.PatchOperationReplace(/Defs/AlienRace.ThingDef_AlienRace[defName = "HAR_Nearmaere"]/alienRace/raceRestriction/onlyUseRaceRestrictedApparel)) failed
+file: D:\Steam\steamapps\workshop\content\294100\2398947154\Patches\HAR_Nearmaere_Apparel_Patch.xml
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+(wrapper dynamic-method) Verse.Log:Verse.Log.Error_Patch2 (string)
+Verse.PatchOperation:Complete (string)
+Verse.PatchOperationSequence:Complete (string)
+Verse.LoadedModManager:ClearCachedPatches ()
+Verse.LoadedModManager:LoadAllActiveMods ()
+Verse.PlayDataLoader:DoPlayLoad ()
+Verse.PlayDataLoader:LoadAllPlayData (bool)
+Verse.Root/<>c:<Start>b__6_1 ()
+Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
+Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__27_0 ()
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart ()
